@@ -1,0 +1,16 @@
+name: ical
+version: 0.0.1
+description: This is an rfc5545 ics file parser and generator library for implementing a full calendar.
+files:
+  - name: ical/contentline.py
+    description: Parser for content lines of ics files
+  - name: ical/event.py
+    description: Event class for handling the event component
+  - name: ical/calendar.py
+    description: Calendar class for handling a calendar component
+  - name: tests/test_event.py
+    description: Tests for the event classes
+  - name: tests/test_calendar.py
+    description: Tests for the calendar classes
+  - name: README.md
+    description: Overview for the project, goals, and some simple getting started guides
